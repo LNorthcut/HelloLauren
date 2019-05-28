@@ -14,10 +14,12 @@ html, body {
   .footer {
     height: 50px;
     margin-top: -50px;
+    
   }
   /*  main card styling */
   #welcome {
       padding-top: 7rem;
+      padding-bottom: 7rem;
   }
   #name {
       text-align: center;
@@ -31,4 +33,9 @@ h1,p {
    background-repeat: no-repeat;
    /* height: 30rem; */
  }
- 
+ .f, .col {
+   align-content: center;
+   justify-content: center;
+   padding: 1rem;
+   text-align: center;
+ }
